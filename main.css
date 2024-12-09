@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
+.main{
+    width: 1005;
+    display:grid;
+    grid-template-columns: 27% 73%;
+}
