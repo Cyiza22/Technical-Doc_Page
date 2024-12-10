@@ -65,3 +65,20 @@ code {
     overflow-x: auto;
     font-family: 'Courier New', Courier, monospace;
 }
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 35% 65%; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        grid-template-columns: 100%; 
+    }
+
+    #sidebar-container {
+        border-right: none;
+        border-bottom: 2px solid #ddd;
+    }
+}
